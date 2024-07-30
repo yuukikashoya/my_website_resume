@@ -1,3 +1,3 @@
-Hello this is a resume online using template
+please ignore this first this project is under progress
 
 https://lloyd-yuuki.web.app/
