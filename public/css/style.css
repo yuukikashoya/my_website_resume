@@ -141,13 +141,10 @@ a {
     .site-navbar.scrolled .navbar-nav > li.active > a {
       color: #17A2B8 !important; }
 
+      
 .site-hero {
-  background-color: #ccc;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  overflow: hidden; }
+}
+
   .site-hero, .site-hero .row {
     height: 100vh;
     min-height: 800px; }
@@ -167,8 +164,14 @@ a {
     .site-hero h1 strong {
       font-weight: 800; }
     @media (min-width: 768px) {
+      .site-hero {
+      background-color: #000;}
+
+   
       .site-hero h1 {
-        font-size: 70px; } }
+   
+        font-size: 70px; } 
+      }
   .site-hero h1, .site-hero .lead {
     font-weight: 200;
     color: #fff; }
@@ -178,6 +181,22 @@ a {
     max-width: 640px;
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.5); }
+    @media (max-width: 767px) {
+   
+      .site-hero {
+        background-image: url(../images/image_1nn.jpg) !important; /* Default background image */
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden; 
+    }
+      .hero-image {
+          display: none; /* Hide image div on mobile */
+      }
+  }
+
+  
 
 .site-section {
   padding: 5em 0; }
