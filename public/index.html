@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/flexslider.css">
 	<link rel="stylesheet" href="fonts/icomoon/style.css">
-
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 
@@ -79,26 +79,25 @@
 			<div class="filters">
 				<ul>
 					<li class="active" data-filter="*">All</li>
-					<li data-filter=".Angular">Angular</li>
-					<li data-filter=".php">PHP</li>
-					<li data-filter=".html">HTML & JavaScript</li>
+					<li data-filter=".Programming">Programming</li>
+					<li data-filter=".Graphic">Graphic Design</li>
+					<li data-filter=".Video">Video Editing</li>
 					<li data-filter=".Figma">Figma</li>
+					<li data-filter=".funnels"> Click Funnels</li>
 				</ul>
 			</div>
 
 			<div class="filters-content">
 				<div class="row grid">
 						
-					<div class="single-portfolio col-sm-4 all Angular"  onclick="window.open('https://im-cafe-laundromat.web.app', '_blank')">
+					<div class="single-portfolio col-sm-4 all Programming"  onclick="window.open('https://im-cafe-laundromat.web.app', '_blank')">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
 								<img class="image img-fluid" src="images/p1.jpg" alt="">
 							</div>
-							<a href="images/p1.jpg" class="img-pop-up">  
-								<div class="middle">
-						 
-								</div>
+							
+								
 						                                
 						</div>
 						<div class="p-inner">
@@ -106,35 +105,27 @@
 							<div class="cat">Angular, Boothstrap, and Firebase</div>
 						</div>                                         
 					</div>
-</a>
-					<div class="single-portfolio col-sm-4 all Angular" onclick="window.open('https://catcrypt-f480b.web.app/home', '_blank')">
+
+					<div class="single-portfolio col-sm-4 all Programming" onclick="window.open('https://catcrypt-f480b.web.app/home', '_blank')">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
 								<img class="image img-fluid" src="images/p2.jpg" alt="">
 							</div>
-							<a href="images/p2.jpg" class="img-pop-up">  
-								<div class="middle">
-						 
-								</div>
-							</a>                                  
+					                                
 						</div>
 						<div class="p-inner">
 							<h4>Catcrypt</h4>
 							<div class="cat">Angular and Firebase</div>
 						</div>                                         
 					</div>                            
-					<div class="single-portfolio col-sm-4 all html" onclick="window.open('https://athena-79273.web.app/', '_blank')">
+					<div class="single-portfolio col-sm-4 all Programming" onclick="window.open('https://athena-79273.web.app/', '_blank')">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
 								<img class="image img-fluid" src="images/p3.jpg" alt="">
 							</div>
-							<a href="images/p3.jpg" class="img-pop-up">  
-								<div class="middle">
-						 
-								</div>
-							</a> 
+						
 
 						</div>
 						<div class="p-inner">
@@ -142,34 +133,26 @@
 							<div class="cat">HTML and JavaScript</div>
 						</div> 
 					</div>
-					<div class="single-portfolio col-sm-4 all html"onclick="window.open('https://rainting-34b26.web.app/', '_blank')">
+					<div class="single-portfolio col-sm-4 all Programming"onclick="window.open('https://rainting-34b26.web.app/', '_blank')">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
 								<img class="image img-fluid" src="images/p4.jpg" alt="">
 							</div>
-							<a href="images/p4.jpg" class="img-pop-up">  
-								<div class="middle">
-						 
-								</div>
-							</a>                                
+						                               
 						</div> 
 						<div class="p-inner">
 							<h4>Rainting</h4>
 							<div class="cat">HTML and JavaScript</div>
 						</div>
 					</div>
-					<div class="single-portfolio col-sm-4 all php">
+					<div class="single-portfolio col-sm-4 all Programming">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
 								<img class="image img-fluid" src="images/p5.jpg" alt="">
 							</div>
-							<a href="images/p5.jpg" class="img-pop-up">  
-								<div class="middle">
-						 
-								</div>
-							</a>                                
+						                              
 						</div>
 						<div class="p-inner">
 							<h4>YANI AND TINTIN CATERING SERVICE</h4>
@@ -182,20 +165,178 @@
 								<div class="overlay overlay-bg"></div>
 								<img class="image img-fluid" src="images/p6.jpg" alt="">
 							</div>
-							<a href="images/p6.jpg" class="img-pop-up">  
-								<div class="middle">
-						 
-								</div>
-							</a>                                
+						                              
 						</div>
 						<div class="p-inner">
 							<h4>Design File Sample Project</h4>
 							<div class="cat">Figma</div>
 						</div>
 					</div>
+
+
+					<div class="single-portfolio col-sm-4 all Graphic" onclick="showPopup('images/graphics4.jpg')">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/graphics4.jpg" alt="">
+							</div>	                             
+						</div>
+						<div class="p-inner">
+							<h4>Social Media Post</h4>
+							<div class="cat">Canva</div>
+						</div>
+					</div>
+			
+
+					<div class="single-portfolio col-sm-4 all Graphic" onclick="showPopup('images/graphics1.jpg')">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/graphics1.jpg" alt="">
+							</div>                          
+						</div>
+						<div class="p-inner">
+							<h4>Social Media Post</h4>
+							<div class="cat">Canva</div>
+						</div>
+					</div>
+	
+					<div class="single-portfolio col-sm-4 all Graphic" onclick="showPopup('images/graphics2.jpg')">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/graphics2.jpg" alt="">
+							</div>                          
+						</div>
+						<div class="p-inner">
+							<h4>Social Media Post</h4>
+							<div class="cat">Canva</div>
+						</div>
+					</div>
+
+					<div class="single-portfolio col-sm-4 all Graphic" onclick="showPopup('images/graphics3.jpg')">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/graphics3.jpg" alt="">
+							</div>                          
+						</div>
+						<div class="p-inner">
+							<h4>Social Media Post</h4>
+							<div class="cat">Canva</div>
+						</div>
+					</div>
+
+					<div class="single-portfolio col-sm-4 all Graphic" onclick="showPopup('images/graphics5.jpg')">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/graphics5.jpg" alt="">
+							</div>                          
+						</div>
+						<div class="p-inner">
+							<h4>Social Media Post</h4>
+							<div class="cat">Canva</div>
+						</div>
+					</div>
+
+					<div class="single-portfolio col-sm-4 all Graphic" onclick="showPopup('images/graphics6.jpg')">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/graphics6.jpg" alt="">
+							</div>                          
+						</div>
+						<div class="p-inner">
+							<h4>Social Media Post</h4>
+							<div class="cat">Canva</div>
+						</div>
+					</div>
+
+					<div class="single-portfolio col-sm-4 all Graphic" onclick="showPopup('images/graphics7.jpg')">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/graphics7.jpg" alt="">
+								
+							</div>                          
+						</div>
+						<div class="p-inner">
+							<h4>Social Media Post</h4>
+							<div class="cat">Canva</div>
+						</div>
+					</div>
+
+
+					<div class="single-portfolio col-sm-4 all Video" onclick="showPopupvideo('video/Shorts.mp4')">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/tumb.jpg" alt="">
+							</div>                          
+						</div>
+						<div class="p-inner">
+							<h4>MyDay Post</h4>
+							<div class="cat">WeVideo</div>
+						</div>
+					</div>
+
+
+					<div class="single-portfolio col-sm-4 all Video" onclick="window.open('https://drive.google.com/file/d/1HwmU2vHO6QXoAOB3sRsQ-Y0jWlHogA2R/view?usp=sharing', '_blank')">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/tumb2.jpg" alt="">
+							</div>                          
+						</div>
+						<div class="p-inner">
+							<h4>Sorsogon Trip</h4>
+							<div class="cat">Capcut</div>
+						</div>
+					</div>
+
+
+					<div class="single-portfolio col-sm-4 all Video" onclick="showPopupvideo('video/shorts2.mp4')">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/tumb3.jpg" alt="">
+							</div>                          
+						</div>
+						<div class="p-inner">
+							<h4>MyDay Post Promotion</h4>
+							<div class="cat">WeVideo</div>
+						</div>
+					</div>
+
+<!-- pop up image -->
+					<div id="popup"onclick="closePopup()">
+						<div class="popup-content">
+							<button class="back-btn" onclick="closePopup()"> <i class="fas fa-times" style="font-size: 2em;"></i></button>
+							<img id="popup-image" src="" alt="Popup Image">
+						</div>
+					</div>
+
+
+					<!-- pop up vidoe -->
+
+					<div id="videopopup">
+						
+						<div class="videopopup-content">
+							<button class="back-btn" onclick="vclosePopup()"> <i class="fas fa-times" style="font-size: 2em;"></i></button>
+							
+							<video id="popup-video" controls>
+								<source id="popup-video-source" src="" type="video/mp4">
+								Your browser does not support the video tag.
+							</video>
+						</div>
+					</div>
+
+
 				</div>
 			</div>
 		</div>
+		
 	</section>
 	<!-- .section -->
 
@@ -551,7 +692,7 @@
 
 
 
-
+	<script src="js/myownjs.js" ></script>
 	<script src="js/vendor/jquery.min.js"></script>
 	<script src="js/vendor/jquery-migrate-3.0.1.min.js"></script>
 	<script src="js/vendor/popper.min.js"></script>
