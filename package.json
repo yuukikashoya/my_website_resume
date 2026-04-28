@@ -1,5 +1,10 @@
 {
-  "dependencies": {
-    "firebase": "^10.12.1"
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
   }
 }
